@@ -13,6 +13,10 @@
 		F9883896250B5A9D001C1F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9883894250B5A9D001C1F0C /* Main.storyboard */; };
 		F9883898250B5AA2001C1F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9883897250B5AA2001C1F0C /* Assets.xcassets */; };
 		F988389B250B5AA2001C1F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9883899250B5AA2001C1F0C /* LaunchScreen.storyboard */; };
+		F98838A5250B5C99001C1F0C /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = F98838A3250B5C99001C1F0C /* awa.png */; };
+		F98838A6250B5C99001C1F0C /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = F98838A4250B5C99001C1F0C /* suiheiki.png */; };
+		F98838A8250B5D4A001C1F0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98838A7250B5D4A001C1F0C /* GameViewController.swift */; };
+		F98838AA250B5D59001C1F0C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98838A9250B5D59001C1F0C /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F9883897250B5AA2001C1F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F988389A250B5AA2001C1F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F988389C250B5AA2001C1F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98838A3250B5C99001C1F0C /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		F98838A4250B5C99001C1F0C /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		F98838A7250B5D4A001C1F0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F98838A9250B5D59001C1F0C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		F988388D250B5A9D001C1F0C /* Acceleromaterlfors */ = {
 			isa = PBXGroup;
 			children = (
+				F98838A2250B5C99001C1F0C /* 13_Resource */,
 				F988388E250B5A9D001C1F0C /* AppDelegate.swift */,
 				F9883890250B5A9D001C1F0C /* SceneDelegate.swift */,
 				F9883892250B5A9D001C1F0C /* ViewController.swift */,
+				F98838A7250B5D4A001C1F0C /* GameViewController.swift */,
+				F98838A9250B5D59001C1F0C /* ResultViewController.swift */,
 				F9883894250B5A9D001C1F0C /* Main.storyboard */,
 				F9883897250B5AA2001C1F0C /* Assets.xcassets */,
 				F9883899250B5AA2001C1F0C /* LaunchScreen.storyboard */,
 				F988389C250B5AA2001C1F0C /* Info.plist */,
 			);
 			path = Acceleromaterlfors;
+			sourceTree = "<group>";
+		};
+		F98838A2250B5C99001C1F0C /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F98838A3250B5C99001C1F0C /* awa.png */,
+				F98838A4250B5C99001C1F0C /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,9 @@
 			files = (
 				F988389B250B5AA2001C1F0C /* LaunchScreen.storyboard in Resources */,
 				F9883898250B5AA2001C1F0C /* Assets.xcassets in Resources */,
+				F98838A6250B5C99001C1F0C /* suiheiki.png in Resources */,
 				F9883896250B5A9D001C1F0C /* Main.storyboard in Resources */,
+				F98838A5250B5C99001C1F0C /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98838AA250B5D59001C1F0C /* ResultViewController.swift in Sources */,
+				F98838A8250B5D4A001C1F0C /* GameViewController.swift in Sources */,
 				F9883893250B5A9D001C1F0C /* ViewController.swift in Sources */,
 				F988388F250B5A9D001C1F0C /* AppDelegate.swift in Sources */,
 				F9883891250B5A9D001C1F0C /* SceneDelegate.swift in Sources */,
